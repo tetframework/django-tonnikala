@@ -19,7 +19,7 @@ with open(os.path.join(os.path.dirname(__file__), 'README.md')) as f:
 
 setup(
     name='django-tonnikala',
-    version='0.0.1',
+    version='0.0.2',
     description='Django backend for Tonnikala templating language',
     long_description=long_description,
     long_description_content_type='text/markdown',
