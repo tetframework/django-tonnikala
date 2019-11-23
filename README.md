@@ -3,7 +3,7 @@ Tonnikala templates - powered by ponies!
 
 Django integration for [the one-ton templating language](https://github.com/tetframework/tonnikala).
 
-To use, install (with `python setup.py install`) and configure your settings:
+To use, install (with `pip install django-tonnikala` or `python setup.py install`) and configure your settings:
 
 ```python
 TEMPLATES = [

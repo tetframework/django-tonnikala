@@ -19,13 +19,13 @@ with open(os.path.join(os.path.dirname(__file__), 'README.md')) as f:
 
 setup(
     name='django-tonnikala',
-    version='0.0.3',
+    version='0.0.4',
     description='Django backend for Tonnikala templating language',
     long_description=long_description,
     long_description_content_type='text/markdown',
     author='Rainer Koirikivi',
     author_email='rainer@koirikivi.fi',
-    url='https://github.com/koirikivi/django-tonnikala',
+    url='https://github.com/tetframework/django-tonnikala',
     classifiers=[
         "Framework :: Django",
         "License :: OSI Approved :: Apache Software License",
