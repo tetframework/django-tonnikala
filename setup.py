@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import os
 try:
     from setuptools import setup, find_packages
 except ImportError:
@@ -12,10 +13,16 @@ requires = """
 """.split()
 
 
+with open(os.path.join(os.path.dirname(__file__), 'README.md')) as f:
+    long_description = f.read().strip()
+
+
 setup(
     name='django-tonnikala',
     version='0.0.1',
     description='Django backend for Tonnikala templating language',
+    long_description=long_description,
+    long_description_content_type='text/markdown',
     author='Rainer Koirikivi',
     author_email='rainer@koirikivi.fi',
     url='https://github.com/koirikivi/django-tonnikala',
@@ -34,5 +41,5 @@ setup(
     setup_requires=[],
     include_package_data=True,
     packages=find_packages(exclude=['example_project']),
-    tests_require=[]
+    tests_require=[],
 )
