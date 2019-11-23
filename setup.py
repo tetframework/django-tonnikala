@@ -19,7 +19,7 @@ with open(os.path.join(os.path.dirname(__file__), 'README.md')) as f:
 
 setup(
     name='django-tonnikala',
-    version='0.0.2',
+    version='0.0.3',
     description='Django backend for Tonnikala templating language',
     long_description=long_description,
     long_description_content_type='text/markdown',
@@ -35,6 +35,8 @@ setup(
         "Programming Language :: Python :: 3.3",
         "Programming Language :: Python :: 3.4",
         "Programming Language :: Python :: 3.5",
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: Implementation :: CPython",
     ],
     install_requires=requires,
